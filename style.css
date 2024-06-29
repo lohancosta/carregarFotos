@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #5f27cd;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  border-bottom: 16px solid #341f97;
+  justify-content: center;
+  text-transform: uppercase;
+  gap: 16px;
+}
+
+form {
+  background-color: #c8d6e5;
+  padding: 24px;
+  text-align: center;
+}
+
+form h2 {
+  margin-bottom: 16px;
+}
+
+input,
+button {
+  padding: 8px;
+}
+
+button {
+  background-color: rgb(67, 162, 67);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botaoCancelar {
+  background-color: rgb(225, 51, 51);
+}
